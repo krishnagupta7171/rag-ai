@@ -7,7 +7,7 @@ def load_model():
     global model
 
     if model is None:
-        model = SentenceTransformer("all-MiniLM-L6-v2")
+        model = SentenceTransformer("paraphrase-MiniLM-L3-v2")
 
     return model
 
